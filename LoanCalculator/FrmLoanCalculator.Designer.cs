@@ -179,6 +179,7 @@ namespace LoanCalculator
             this.CmbxLoanType.Name = "CmbxLoanType";
             this.CmbxLoanType.Size = new System.Drawing.Size(234, 29);
             this.CmbxLoanType.TabIndex = 8;
+            this.CmbxLoanType.SelectedIndexChanged += new System.EventHandler(this.CmbxLoanType_SelectedIndexChanged);
             // 
             // CmbxAmountOfMonts
             // 
@@ -200,6 +201,7 @@ namespace LoanCalculator
             this.BtnCalculate.TabIndex = 10;
             this.BtnCalculate.Text = "Calculate";
             this.BtnCalculate.UseVisualStyleBackColor = true;
+            this.BtnCalculate.Click += new System.EventHandler(this.BtnCalculate_Click);
             // 
             // FrmLoanCalculator
             // 
