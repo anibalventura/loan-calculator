@@ -17,7 +17,7 @@ namespace LoanCalculator
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmLoanCalculator());
+            Application.Run(new LoanCalculatorForm());
         }
     }
 }

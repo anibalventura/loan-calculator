@@ -12,9 +12,9 @@ using BusinessLayer;
 
 namespace LoanCalculator
 {
-    public partial class FrmLoanCalculator : Form
+    public partial class LoanCalculatorForm : Form
     {
-        public FrmLoanCalculator()
+        public LoanCalculatorForm()
         {
             InitializeComponent();
 
@@ -74,12 +74,12 @@ namespace LoanCalculator
                 }
                 else
                 {
-                    Calculator calculator = new Calculator();
+                    CalculatorService calculatorService = new CalculatorService();
 
                     int amount = int.Parse(TxbLoanAmount.Text);
                     int type = (int)loanType.Value;
                     int months = (int)amountOfMonths.Value;
-                    double result = calculator.CalculateLoan(amount, type, months);
+                    double result = calculatorService.CalculateLoan(amount, type, months);
 
                     TxbMonthlyFee.Text = $"$ {result.ToString("#,000.##")}";
                 }
@@ -96,7 +96,7 @@ namespace LoanCalculator
             {
                 new ComboBoxItem()
                 {
-                    Text = "Select an option",
+                    Text = "Select type",
                     Value = null
                 },
                 new ComboBoxItem()
@@ -128,12 +128,11 @@ namespace LoanCalculator
         {
             ComboBoxItem defaultOption = new ComboBoxItem()
             {
-                Text = "Select an option",
+                Text = "Select months",
                 Value = null
             };
 
             CmbxAmountOfMonts.Items.Add(defaultOption);
-            CmbxAmountOfMonts.SelectedItem = defaultOption;
 
             for (int i = 12; i <= 120; i += 6)
             {
@@ -145,6 +144,8 @@ namespace LoanCalculator
 
                 CmbxAmountOfMonts.Items.Add(newItem);
             }
+
+            CmbxAmountOfMonts.SelectedItem = defaultOption;
         }
     }
 }

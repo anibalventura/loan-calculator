@@ -1,7 +1,7 @@
 ﻿
 namespace LoanCalculator
 {
-    partial class FrmLoanCalculator
+    partial class LoanCalculatorForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -47,10 +47,10 @@ namespace LoanCalculator
             // TlpMain
             // 
             this.TlpMain.ColumnCount = 4;
-            this.TlpMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.TlpMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
-            this.TlpMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
-            this.TlpMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.TlpMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17F));
+            this.TlpMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28F));
+            this.TlpMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38F));
+            this.TlpMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17F));
             this.TlpMain.Controls.Add(this.LblLoanAmount, 1, 1);
             this.TlpMain.Controls.Add(this.LblLoanType, 1, 2);
             this.TlpMain.Controls.Add(this.LblAmountOfMonths, 1, 3);
@@ -83,9 +83,9 @@ namespace LoanCalculator
             this.LblLoanAmount.AutoSize = true;
             this.LblLoanAmount.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LblLoanAmount.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LblLoanAmount.Location = new System.Drawing.Point(163, 56);
+            this.LblLoanAmount.Location = new System.Drawing.Point(139, 56);
             this.LblLoanAmount.Name = "LblLoanAmount";
-            this.LblLoanAmount.Size = new System.Drawing.Size(234, 56);
+            this.LblLoanAmount.Size = new System.Drawing.Size(218, 56);
             this.LblLoanAmount.TabIndex = 0;
             this.LblLoanAmount.Text = "Loan amount";
             this.LblLoanAmount.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -95,9 +95,9 @@ namespace LoanCalculator
             this.LblLoanType.AutoSize = true;
             this.LblLoanType.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LblLoanType.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LblLoanType.Location = new System.Drawing.Point(163, 112);
+            this.LblLoanType.Location = new System.Drawing.Point(139, 112);
             this.LblLoanType.Name = "LblLoanType";
-            this.LblLoanType.Size = new System.Drawing.Size(234, 56);
+            this.LblLoanType.Size = new System.Drawing.Size(218, 56);
             this.LblLoanType.TabIndex = 1;
             this.LblLoanType.Text = "Loan type";
             this.LblLoanType.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -107,9 +107,9 @@ namespace LoanCalculator
             this.LblAmountOfMonths.AutoSize = true;
             this.LblAmountOfMonths.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LblAmountOfMonths.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LblAmountOfMonths.Location = new System.Drawing.Point(163, 168);
+            this.LblAmountOfMonths.Location = new System.Drawing.Point(139, 168);
             this.LblAmountOfMonths.Name = "LblAmountOfMonths";
-            this.LblAmountOfMonths.Size = new System.Drawing.Size(234, 56);
+            this.LblAmountOfMonths.Size = new System.Drawing.Size(218, 56);
             this.LblAmountOfMonths.TabIndex = 2;
             this.LblAmountOfMonths.Text = "Amount of months";
             this.LblAmountOfMonths.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -119,9 +119,9 @@ namespace LoanCalculator
             this.LblAnualInterestRate.AutoSize = true;
             this.LblAnualInterestRate.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LblAnualInterestRate.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LblAnualInterestRate.Location = new System.Drawing.Point(163, 224);
+            this.LblAnualInterestRate.Location = new System.Drawing.Point(139, 224);
             this.LblAnualInterestRate.Name = "LblAnualInterestRate";
-            this.LblAnualInterestRate.Size = new System.Drawing.Size(234, 56);
+            this.LblAnualInterestRate.Size = new System.Drawing.Size(218, 56);
             this.LblAnualInterestRate.TabIndex = 3;
             this.LblAnualInterestRate.Text = "Annual interest rate";
             this.LblAnualInterestRate.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -131,9 +131,9 @@ namespace LoanCalculator
             this.LblMonthlyFee.AutoSize = true;
             this.LblMonthlyFee.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LblMonthlyFee.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LblMonthlyFee.Location = new System.Drawing.Point(163, 336);
+            this.LblMonthlyFee.Location = new System.Drawing.Point(139, 336);
             this.LblMonthlyFee.Name = "LblMonthlyFee";
-            this.LblMonthlyFee.Size = new System.Drawing.Size(234, 56);
+            this.LblMonthlyFee.Size = new System.Drawing.Size(218, 56);
             this.LblMonthlyFee.TabIndex = 4;
             this.LblMonthlyFee.Text = "Monthly fee";
             this.LblMonthlyFee.TextAlign = System.Drawing.ContentAlignment.BottomRight;
@@ -142,9 +142,9 @@ namespace LoanCalculator
             // 
             this.TxbLoanAmount.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TxbLoanAmount.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.TxbLoanAmount.Location = new System.Drawing.Point(403, 59);
+            this.TxbLoanAmount.Location = new System.Drawing.Point(363, 59);
             this.TxbLoanAmount.Name = "TxbLoanAmount";
-            this.TxbLoanAmount.Size = new System.Drawing.Size(234, 29);
+            this.TxbLoanAmount.Size = new System.Drawing.Size(298, 29);
             this.TxbLoanAmount.TabIndex = 5;
             // 
             // TxbAnualInterestRate
@@ -152,10 +152,10 @@ namespace LoanCalculator
             this.TxbAnualInterestRate.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TxbAnualInterestRate.Enabled = false;
             this.TxbAnualInterestRate.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.TxbAnualInterestRate.Location = new System.Drawing.Point(403, 227);
+            this.TxbAnualInterestRate.Location = new System.Drawing.Point(363, 227);
             this.TxbAnualInterestRate.Name = "TxbAnualInterestRate";
             this.TxbAnualInterestRate.ReadOnly = true;
-            this.TxbAnualInterestRate.Size = new System.Drawing.Size(234, 29);
+            this.TxbAnualInterestRate.Size = new System.Drawing.Size(298, 29);
             this.TxbAnualInterestRate.TabIndex = 6;
             // 
             // TxbMonthlyFee
@@ -163,10 +163,10 @@ namespace LoanCalculator
             this.TxbMonthlyFee.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.TxbMonthlyFee.Enabled = false;
             this.TxbMonthlyFee.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.TxbMonthlyFee.Location = new System.Drawing.Point(403, 360);
+            this.TxbMonthlyFee.Location = new System.Drawing.Point(363, 360);
             this.TxbMonthlyFee.Name = "TxbMonthlyFee";
             this.TxbMonthlyFee.ReadOnly = true;
-            this.TxbMonthlyFee.Size = new System.Drawing.Size(234, 29);
+            this.TxbMonthlyFee.Size = new System.Drawing.Size(298, 29);
             this.TxbMonthlyFee.TabIndex = 7;
             // 
             // CmbxLoanType
@@ -175,9 +175,9 @@ namespace LoanCalculator
             this.CmbxLoanType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbxLoanType.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.CmbxLoanType.FormattingEnabled = true;
-            this.CmbxLoanType.Location = new System.Drawing.Point(403, 115);
+            this.CmbxLoanType.Location = new System.Drawing.Point(363, 115);
             this.CmbxLoanType.Name = "CmbxLoanType";
-            this.CmbxLoanType.Size = new System.Drawing.Size(234, 29);
+            this.CmbxLoanType.Size = new System.Drawing.Size(298, 29);
             this.CmbxLoanType.TabIndex = 8;
             this.CmbxLoanType.SelectedIndexChanged += new System.EventHandler(this.CmbxLoanType_SelectedIndexChanged);
             // 
@@ -187,29 +187,29 @@ namespace LoanCalculator
             this.CmbxAmountOfMonts.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbxAmountOfMonts.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.CmbxAmountOfMonts.FormattingEnabled = true;
-            this.CmbxAmountOfMonts.Location = new System.Drawing.Point(403, 171);
+            this.CmbxAmountOfMonts.Location = new System.Drawing.Point(363, 171);
             this.CmbxAmountOfMonts.Name = "CmbxAmountOfMonts";
-            this.CmbxAmountOfMonts.Size = new System.Drawing.Size(234, 29);
+            this.CmbxAmountOfMonts.Size = new System.Drawing.Size(298, 29);
             this.CmbxAmountOfMonts.TabIndex = 9;
             // 
             // BtnCalculate
             // 
             this.BtnCalculate.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BtnCalculate.Location = new System.Drawing.Point(403, 283);
+            this.BtnCalculate.Location = new System.Drawing.Point(363, 283);
             this.BtnCalculate.Name = "BtnCalculate";
-            this.BtnCalculate.Size = new System.Drawing.Size(234, 50);
+            this.BtnCalculate.Size = new System.Drawing.Size(298, 50);
             this.BtnCalculate.TabIndex = 10;
             this.BtnCalculate.Text = "Calculate";
             this.BtnCalculate.UseVisualStyleBackColor = true;
             this.BtnCalculate.Click += new System.EventHandler(this.BtnCalculate_Click);
             // 
-            // FrmLoanCalculator
+            // LoanCalculatorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.TlpMain);
-            this.Name = "FrmLoanCalculator";
+            this.Name = "LoanCalculatorForm";
             this.Text = "Loan Calculator";
             this.TlpMain.ResumeLayout(false);
             this.TlpMain.PerformLayout();

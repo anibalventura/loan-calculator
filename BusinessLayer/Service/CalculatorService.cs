@@ -2,7 +2,7 @@
 
 namespace BusinessLayer
 {
-    public class Calculator
+    public class CalculatorService
     {
         public double CalculateLoan(int amount, int type, int months)
         {
